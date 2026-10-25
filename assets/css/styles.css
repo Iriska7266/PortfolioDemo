@@ -16,6 +16,10 @@ body {
     text-align: center;
 }
 
+.purple-fill {
+    color: #9A33FF;
+}
+
 .avatar {
     width: 213px;
     height: 213px;
