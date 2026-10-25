@@ -1,0 +1,239 @@
+body {
+    font-family: "PoppinsRegular", sans-serif;
+    font-size: 14.49px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(22, 21, 19);
+}
+
+/* Short info block */
+
+.about-me-card {
+    width: 679px;
+    padding: 180px 384px 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar {
+    width: 213px;
+    height: 213px;
+    background-image: url(../png/avatar.png);
+}
+
+.about-me-card__title {
+    font-family: "PoppinsExtraBold";
+    font-size: 55px;
+    line-height: 63.4px;
+    letter-spacing: 0%;
+    width: 656px;
+    padding-top: 41px;
+}
+
+.about-me-card__subtitle {
+    font-family: "PoppinsLight";
+    letter-spacing: 2%;
+    color: rgba(197, 197, 197, 1);
+    width: 679px;
+    padding-top: 39px;
+}
+
+.buttons {
+    padding-top: 54px;
+    display: flex;
+    gap: 18px;
+}
+
+.button {
+    font-family: "PoppinsSemiBold";
+    font-size: 21.38px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.button--filled {
+    padding: 16px 29.5px;
+    color: rgba(22, 21, 19, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.button--transparent {
+    padding: 16px 28.5px;
+}
+
+/* Technologies block */
+
+.techologies {
+    padding: 88px 496px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+}
+
+.techologies__title {
+    font-family: "PoppinsSemiBold";
+    font-size: 20px;
+    color: rgba(197, 197, 197, 1);
+    width: 208px;
+}
+
+.techologies__icons {
+    width: fit-content;
+    height: fit-content;
+    padding-top: 48px;
+    display: flex;
+    gap: 60.45px;
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+}
+
+.techonology-icon--js {
+    background-image: url(../png/javascript.png);
+}
+
+.techonology-icon--nodejs {
+    background-image: url(../png/nodejs.png);
+}
+
+.techonology-icon--html {
+    width: 38px;
+    background-image: url(../png/html.png);
+}
+
+.techonology-icon--css {
+    width: 37px;
+    background-image: url(../png/css.png);
+}
+
+.techonology-icon--reactjs {
+    width: 47px;
+    background-image: url(../png/reactjs.png);
+}
+
+/* Projects block */
+
+.projects {
+    padding: 99px 315px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+}
+
+.projects__title {
+    font-family: "PoppinsExtraBold";
+    font-size: 35px;
+    color: #FF8660;
+    line-height: 35.7px;
+}
+
+.tutorials {
+    padding-top: 27px;
+    display: flex;
+    gap: 30px;
+}
+
+.tutorial {
+    width: 390px;
+    height: 301px;
+}
+
+.tutorial--power-of-html {
+    background-image: url(../png/1st-project.png);
+}
+
+.tutorial--unlock-css-magic {
+    background-image: url(../png/2nd-project.png);
+}
+
+/* Experience block */
+
+.experience {
+    padding: 96px 315px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+
+.experience__title {
+    font-family: "PoppinsExtraBold";
+    font-size: 35px;
+    color: #5BADFF;
+    width: 213px;
+}
+
+.history {
+    padding: 57px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.story {
+    width: 810px;
+}
+
+.story__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-title--google {
+    display: flex;
+    gap: 10.76px;
+}
+
+.header__logo-title--meta {
+    display: flex;
+    gap: 14.59px;
+}
+
+.logo-title__logo--google {
+    width: 34.07px;
+    height: 32px;
+    background-image: url(../png/google-logo.png);
+}
+
+.logo-title__logo--meta {
+    width: 32.32px;
+    height: 22px;
+    background-image: url(../png/meta-logo.png);
+}
+
+.logo-title__title {
+    font-family: "PoppinsBold";
+    font-size: 21.74px;
+    letter-spacing: 0%;
+}
+
+.header__interval {
+    color: rgba(132, 145, 160, 1);
+    font-size: 14.49px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.story__description {
+    padding: 34.26px 0px 0px;
+    line-height: 150%;
+}
+
+.story__description--google {
+    color: rgba(132, 145, 160, 1);
+}
+
+.story__description--meta {
+    color: rgba(197, 197, 197, 1);
+}
