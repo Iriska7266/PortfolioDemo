@@ -9,7 +9,7 @@ body {
 
 .about-me-card {
     width: 679px;
-    padding: 180px 384px 88px;
+    padding: 180px 384px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
