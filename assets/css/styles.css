@@ -187,19 +187,19 @@ body {
     width: 810px;
 }
 
-.story__header {
+.story-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__logo-title--google {
+.story-header__logo-title--google {
     display: flex;
     gap: 10.76px;
 }
 
-.header__logo-title--meta {
+.story-header__logo-title--meta {
     display: flex;
     gap: 14.59px;
 }
@@ -222,7 +222,7 @@ body {
     letter-spacing: 0%;
 }
 
-.header__interval {
+.story-header__interval {
     color: rgba(132, 145, 160, 1);
     font-size: 14.49px;
     line-height: 150%;
